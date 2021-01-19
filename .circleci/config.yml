@@ -60,7 +60,7 @@ jobs:
 
       - run:
           name: Checkout the klassi framework repo
-          command: git clone git@github.com:prateekLambda/LambdaTest-klassi-public.git
+          command: git clone git@github.com:prateekLambda/Klassi-js-LambdaTest.git
 
       - run:
           name: Check out the working branch
