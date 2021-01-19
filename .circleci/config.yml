@@ -59,10 +59,6 @@ jobs:
           command: mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
 
       - run:
-          name: Checkout the klassi framework repo
-          command: git clone git@github.com:larryg01/klassi-js.git
-
-      - run:
           name: Check out the working branch
           path: ~/klassiG/klassi-js
           command: git checkout ${CIRCLE_BRANCH}
