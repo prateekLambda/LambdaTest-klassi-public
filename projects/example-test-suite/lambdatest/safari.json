@@ -1,0 +1,22 @@
+{
+  "project":"Klassi Automated Test",
+
+  "platform" : "macOS Mojave",
+  "browserName" : "Safari",
+  "version" : "12.0",
+  "resolution" : "1280x1024",
+
+  "javascriptEnabled":true,
+  "locationContextEnabled":true,
+  "handlesAlerts":true,
+  "rotatable":true,
+  "logLevel":"silent",
+
+  "acceptSslCerts": true,
+  "browserstack.local": false,
+  "browserstack.localIdentifier": "QaAutoTest",
+  "browserstack.debug": true,
+  "browserstack.networkLogs": true,
+  "browserstack.selenium_version2": "3.141.5",
+  "browserstack.selenium_version": "3.14.0"
+}
